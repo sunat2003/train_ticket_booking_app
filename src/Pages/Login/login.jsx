@@ -23,7 +23,7 @@ const Login = () => {
         <div className="overflow-x-hidden">
           <Navbar />
           <div
-            className="w-screen h-screen flex justify-center items-center pt-20 md:px-10 px-2"
+            className="w-screen md:h-screen h-[87vh] flex justify-center items-start pt-20 md:px-10 px-2"
             style={{
               backgroundImage: `url(${banner2})`,
               backgroundSize: "cover",
