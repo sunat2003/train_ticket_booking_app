@@ -30,7 +30,7 @@ const Login = () => {
               backgroundPosition: "center",
             }}
           >
-            <form className="bg-white opacity-75 p-15 rounded-2xl flex flex-col items-start gap-y-10 md:w-[500px] w-full">
+            <form className="bg-white opacity-75 sm:p-15 p-5 rounded-2xl flex flex-col items-start gap-y-10 md:w-[500px] w-full">
               <div className="flex gap-x-5">
                 <img src={logo} alt="loading" />
                 <div>

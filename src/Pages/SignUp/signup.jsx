@@ -32,14 +32,14 @@ const Signup = () => {
               backgroundPosition: "center",
             }}
           >
-            <form className="bg-white opacity-75 pt-20 rounded-3xl md:w-[900px] w-full h-[800px]">
+            <form className="bg-white opacity-75 pt-20 rounded-3xl sm:w-[900px] w-full sm:h-[800px] h-[105vh]">
               <img src={numberSlide} alt="loading" className=" w-full" />
                  {/* <div className="flex w-full">
                   <div className="w-1/3 flex justify-center py-4 bg-[#CFB165] text-white">1</div>
                   <div className="w-1/3 flex justify-center py-4 bg-[#9B844A] text-white">2</div>
                   <div className="w-1/3 flex justify-center py-4 bg-[#5B4E2B] text-white">3</div>
                  </div> */}
-              <div className="p-10 flex flex-col gap-y-5 w-full items-start">
+              <div className="sm:p-10 p-5 flex flex-col gap-y-5 w-full items-start">
                 <div>
                   <h1 className="font-bold text-2xl mb-1">
                     Ready to join Van Lang Tour? Let’s get started

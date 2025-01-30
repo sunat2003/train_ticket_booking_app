@@ -4,8 +4,8 @@ import { FaCircleChevronRight } from "react-icons/fa6";
 
 const TrainDetails = () => {
   return (
-    <div className="lg:w-full w-[90%] flex sm:flex-row flex-col bg-white justify-between items-center rounded-2xl overflow-hidden relative">
-      <div className="md:p-15 p-5 flex lg:gap-x-10 gap-x-5 items-center">
+    <div className="lg:w-full w-[100%] flex sm:flex-row flex-col bg-white justify-between items-center rounded-2xl overflow-hidden relative">
+      <div className="md:p-15 p-5  flex lg:gap-x-10 gap-x-5 items-center">
         <div>
           <h1 className="md:text-4xl text-2xl font-bold">12:00</h1>
           <h1 className="md:text-4xl text-2xl font-bold text-gray-400">Sai Gon</h1>
