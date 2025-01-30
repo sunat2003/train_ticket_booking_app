@@ -36,7 +36,7 @@ const About = () => {
             btnTitle="Click here"
           />
     
-          <div className="w-screen lg:h-screen h-full bg-black text-white lg:px-50 px-10 py-30 flex lg:flex-row flex-col items-center gap-x-20">
+          <div className="w-screen lg:h-screen h-full bg-black text-white lg:px-50 px-10 py-5 flex lg:flex-row flex-col-reverse  items-center gap-x-20 lg:gap-y-0 gap-y-10">
             <div className="lg:w-1/2 w-full">
               <img src={about1} alt="" className="lg:w-2/3 w-full h-2/3 rounded-[10px]" />
             </div>
@@ -51,7 +51,7 @@ const About = () => {
             </div>
           </div>
     
-          <div className="w-screen lg:h-screen h-full bg-black text-white lg:px-50 px-10 py-30 flex  items-center lg:flex-row-reverse flex-col gap-x-20">
+          <div className="w-screen lg:h-screen h-full bg-black text-white lg:px-50 px-10 py-5 flex  items-center lg:flex-row-reverse flex-col-reverse lg:gap-y-0 gap-y-10 gap-x-20">
             <div className="lg:w-1/2 w-full flex justify-end">
               <img src={about2} alt="" className="lg:w-2/3 w-full rounded-[10px]" />
             </div>

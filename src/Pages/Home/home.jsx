@@ -67,7 +67,7 @@ const Home = () => {
               btnTitle="Read more"
             />
 
-            <div className="w-screen flex lg:px-50 px-10 gap-x-10 py-20">
+            <div className="w-screen flex md:flex-row flex-col lg:px-50 px-10 md:gap-x-10 md:gap-y-0 gap-y-5 py-20">
               <div className="p-5 bg-[#CFB165] flex lg:flex-row flex-col items-center rounded-3xl">
                 <img src={moniter} alt="" className="lg:mr-5 mr-0" />
                 <p className="text-white">
